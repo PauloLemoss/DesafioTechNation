@@ -1,0 +1,168 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Main */
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Dashboard */
+  
+  .dashboard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .indicadores {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .indicadores li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .indicadores li span:first-child {
+    font-weight: bold;
+  }
+  
+  .valor {
+    font-size: 18px;
+  }
+  
+  /* Gráficos */
+  
+  .graficos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  #graficoInadimplencia, #graficoReceita {
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+  }
+  
+  /* Lista de Notas Fiscais */
+  
+  .lista-notas {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .filtros {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .filtros input, .filtros select {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .filtros button {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #0073b7;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  tbody tr:hover {
+    background-color: #f7f7f7;
+  }
+  
+  /* Ações */
+  
+  .acoes {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .acoes a {
+    text-decoration: none;
+    color: #0073b7;
+    cursor: pointer;
+  }
+  
+  .acoes a:hover {
+    text-decoration: underline;
+  }
+
+  #myChart, #myChart2 {
+    max-height: 250px;
+  }
+
+  .row {
+    margin-top: 50px;
+  }
+
+  .filtragem {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filtragem > .col {
+    margin: 5px;
+
+  }
